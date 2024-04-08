@@ -1,1 +1,1 @@
-# osTicket-Prerequisites
+# osticket-Prerequisites
