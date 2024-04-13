@@ -124,20 +124,56 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/2f91e580-0df2-4328-839d-92b7ba27953a)
 
-
 - <b>Rename ost-sampleconfig.php to ost-config.php</b>
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/73d97c51-9f13-4445-8736-ec9176bb7618)
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/1d2e687c-70af-4868-af08-1a30fdb0af2d)
+
 - <b>Assign permissions to ost-config.php (Disable inheritance, New Permissions: Everyone -> All)</b>
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/ffba67ea-a708-4d12-9437-ef81b8c9b258)
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/0a6c133a-a9c8-459a-8c3a-4adc1a02b2a6)
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/36626084-92d9-447d-b53c-6192314f0e3c)
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/e0d6f7ae-d5e8-4478-9033-11433049d54b)
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/52d0e1c4-30f7-4374-9a84-0587a1318ce4)
 
 <h3>Install HeidiSQL and Continue osTicket Setup</h3>
 - <b>Download and install HeidiSQL from Installation Files</b>
 - <b>Create new session (root/Password of choice) and connect</b>
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/5c5f05ea-03bf-4962-94f3-8ad82e78bd46)
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/e673308b-d8be-49ee-a013-bc39c1fd57f8)
+
 - <b>Create database "osTicket"</b>
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/000b4ffa-f1d2-4f1a-b7fd-48f08faf2618)
+
+ <b>Fill out osTicket Installer Info</b>
+
+ ![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/f2653478-51a7-483f-a82f-b1797d772186)
 
 <h3>Complete osTicket Setup and Clean Up</h3>
 - <b>Enter MySQL details (Database: osTicket, Username: root, Password: Password1)</b>
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/a7049d59-1614-4ddc-8c42-de8c46913fc9)
+
 - <b>Click "Install Now!"</b>
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/aa0e3e22-3f8d-4425-8244-42a8dc023bfc)
+
 - <b>Delete C:\inetpub\wwwroot\osTicket\setup</b>
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/9bd0ca4b-305e-477e-86ac-08200633d0ef)
+
 - <b>Set Permissions to "Read" only for C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>
+
+![image](https://github.com/Postmoedev/osTicket-Prereqs/assets/150564271/661fd0e5-43cc-4ed9-adde-3b1dfdbb242f)
 
 <h3>Access osTicket</h3>
 - <b> http://localhost/osTicket/scp/login.php</b>
