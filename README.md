@@ -31,7 +31,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Installation Steps</h2>
-
+<h3>Installation Files:</h3> 
+https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 <h3>Create Azure Virtual Machine (Windows 10, 4 vCPUs)</h3>
 - <b>Name: Vm-osticket</b>
 - <b>Username: labuser</b>
